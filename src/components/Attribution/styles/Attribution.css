@@ -1,0 +1,25 @@
+/** @format */
+
+.attribution {
+	font-size: 0.688rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.attribution span {
+	margin-left: 0.5rem; 
+	margin-right: 0.5rem; 
+}
+
+.attribution a {
+	color: var(--dark-cyan);
+	text-decoration: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.attribution a:hover {
+	text-decoration: underline;
+	transition: all 0.5s ease-in-out;
+}
