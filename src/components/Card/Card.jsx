@@ -3,13 +3,15 @@
 import './styles/Card.css';
 
 import productDesktop from '@/assets/images/image-product-desktop.jpg';
+import productMobile from '@/assets/images/image-product-mobile.jpg';
 import cartIcon from '@/assets/images/icon-cart.svg'
 
 const Card = () => {
 	return (
 		<div className='card'>
 			<figure className='card__thumb'>
-				<img src={productDesktop} alt='product' />
+				<img src={productDesktop} alt='product' className='card__thumb__desktop' />
+				<img src={productMobile} alt='product' className='card__thumb__mobile'/>
 			</figure>
 			<div className='card__content'>
 				<h3>Perfume</h3>

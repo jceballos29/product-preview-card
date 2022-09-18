@@ -2,6 +2,7 @@
 
 .attribution {
 	font-size: 0.688rem;
+	line-height: 1.125rem;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -9,8 +10,8 @@
 }
 
 .attribution span {
-	margin-left: 0.5rem; 
-	margin-right: 0.5rem; 
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .attribution a {
@@ -22,4 +23,15 @@
 .attribution a:hover {
 	text-decoration: underline;
 	transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 576px) {
+	.attribution {
+		flex-direction: column;
+	}
+
+	.attribution span {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
